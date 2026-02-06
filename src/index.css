@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background: radial-gradient(circle at top, #1a1c24, #0d0e12 60%);
+  color: #f5f5f7;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.28;
+  padding-bottom: 0.2em;
+  overflow: visible;
+}
