@@ -6,8 +6,9 @@ const projects = [
     subtitle: 'Mental health platform with role-based access',
     description:
       'Role-based authentication for admin, users, and doctors with dedicated dashboards and logout support.',
+    liveUrl: 'https://mindpal-frontend.vercel.app/',
     highlights: [
-      'Admin: CRUD on doctor profiles, view all doctors and user appointments with search',
+      'Admin: login (mentalhealth@gmail.com / admin123) + CRUD on doctor profiles, view all doctors and user appointments with search',
       'Users: register/login, take an initial mental health test, book appointments, post stories to a public feed',
       'Doctors: register/login, view assigned appointments',
     ],
@@ -17,6 +18,7 @@ const projects = [
     subtitle: 'Project management with personalized dashboards',
     description:
       'A full CRUD project workspace with profile updates, dashboards, and search across projects.',
+    liveUrl: 'https://projectfare-frontend-theta.vercel.app/',
     highlights: [
       'Create, read, update, and delete projects',
       'Individual dashboards with logout functionality',
@@ -28,7 +30,12 @@ const projects = [
     subtitle: 'Teacher-focused CRUD app',
     description:
       'A basic management tool where teachers can manage student records end to end.',
-    highlights: ['Teachers can create, read, update, and delete student details'],
+    liveUrl: 'https://school-management-sm.vercel.app/',
+    highlights: [
+      'Teachers can create, read, update, and delete student details',
+      'Search students by name or class',
+      'Logout functionality for teachers',
+    ],
   },
 ]
 
@@ -61,6 +68,21 @@ export default function Projects() {
                 <li key={item}>{item}</li>
               ))}
             </ul>
+
+            <div className="project-actions">
+              {project.liveUrl ? (
+                <a
+                  className="project-link"
+                  href={project.liveUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              ) : (
+                <span className="project-link disabled">Live demo soon</span>
+              )}
+            </div>
           </article>
         ))}
       </div>
