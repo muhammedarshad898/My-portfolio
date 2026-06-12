@@ -1,0 +1,115 @@
+.education-section {
+  padding: 5rem 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2.5rem;
+}
+
+.education-header {
+  max-width: 600px;
+  display: grid;
+  gap: 1rem;
+}
+
+.education-eyebrow {
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: rgba(245, 245, 247, 0.6);
+}
+
+.education-title {
+  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-family: 'Syne', sans-serif;
+  margin: 0;
+}
+
+.education-subtitle {
+  color: rgba(245, 245, 247, 0.7);
+  line-height: 1.7;
+}
+
+.education-card {
+  padding: 1.75rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.25);
+}
+
+.education-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  margin: 1.25rem 0;
+}
+
+.education-entry {
+  display: grid;
+  gap: 1rem;
+}
+
+.education-entry-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.education-entry-info {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.education-entry-title {
+  margin: 0;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.education-institution {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #ffb25c;
+  font-weight: 600;
+}
+
+.education-loc {
+  color: rgba(245, 245, 247, 0.5);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+}
+
+.education-meta {
+  flex-shrink: 0;
+}
+
+.education-duration {
+  font-size: 0.85rem;
+  color: rgba(245, 245, 247, 0.78);
+  font-weight: 500;
+}
+
+.education-description {
+  margin: 0;
+  padding: 0.6rem 0.9rem;
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgba(245, 245, 247, 0.78);
+}
+
+@media (max-width: 900px) {
+  .education-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .education-entry-top {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

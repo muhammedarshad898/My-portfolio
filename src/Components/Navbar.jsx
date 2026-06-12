@@ -4,8 +4,10 @@ import './Navbar.css'
 const links = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Project', href: '#project' },
+  { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },
 ]
 

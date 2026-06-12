@@ -7,9 +7,9 @@ const highlights = [
 ]
 
 const stats = [
-  { label: 'Experience', value: '1 year' },
-  { label: 'Fintech (FT)', value: '7 months' },
-  { label: 'MERN Internship', value: '6 months' },
+  { label: 'Total Experience', value: '~1 Year' },
+  { label: 'Domains', value: 'Fintech + EdTech' },
+  { label: 'Production Jobs', value: '2 Roles' },
 ]
 
 export default function About() {
@@ -21,11 +21,12 @@ export default function About() {
           Full-stack developer focused on modern MERN + Next.js builds.
         </h2>
         <p className="about-lede">
-          I&apos;m a full-stack developer with professional experience in MERN and
-          Next.js, including work at a fintech firm as a full-stack developer
-          and a paid MERN-stack internship. I enjoy building clean, scalable
-          applications with a strong focus on code quality, performance, and
-          real-world functionality.
+          I&apos;m a full-stack developer with production experience across fintech
+          and edtech — including building a live loan CRM at PaisaOnClick and
+          delivering a multi-role EdTech platform at Astronify Space currently
+          serving 100+ active users. I work primarily with the MERN stack and
+          Next.js, with a focus on clean architecture, real-world integrations,
+          and shipping features that work in production.
         </p>
 
         <ul className="about-highlights">

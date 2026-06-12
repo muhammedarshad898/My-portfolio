@@ -3,8 +3,10 @@ import './Footer.css'
 const links = [
   { label: 'Home', href: '#home' },
   { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#project' },
+  { label: 'Education', href: '#education' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -46,7 +48,7 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <span>© 2026 Muhammed Arshad. All rights reserved.</span>
+        <span>ï¿½ 2026 Muhammed Arshad. All rights reserved.</span>
         <span>Built with React + Vite.</span>
       </div>
     </footer>
